@@ -8,7 +8,7 @@ app = Flask(__name__)
 pins = {
     2 : {'name' : 'PIN 2', 'state' : 0 },
     3 : {'name' : 'PIN 3', 'state' : 0 }
-    }
+}
 
 # Main function when accessing the website
 @app.route("/")
